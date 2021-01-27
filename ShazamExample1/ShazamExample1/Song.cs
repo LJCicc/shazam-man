@@ -15,5 +15,9 @@ namespace ShazamExample1
         public string SongTitle { get => _songTitle; set => _songTitle = value; }
         public Artist Artist1 { get => Artist; set => Artist = value; }
         public float Duration { get => duration; set => duration = value; }
+        public Song()
+        {
+            Console.WriteLine("Song Created.");
+        }
     }
 }
